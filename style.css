@@ -1,3 +1,8 @@
+.clearfix::after {
+    content: "";
+    clear: both;
+  }
+
 body {
   background-color:darkgrey;
 }
@@ -23,6 +28,7 @@ nav {
 
 section {
   background-color:darkblue;
+  float:left;
   color:white;
   text-align:center;
   padding:20px;
@@ -37,11 +43,11 @@ article {
 }
 
 aside {
-  float:right;
+  float:left;
   background-color: aqua;
   padding:70px;
-  margin:0px 10px 5px 10px;
-  width:700px;
+  width:425px;
+  margin:10px;
   text-align: center;
 }
 
