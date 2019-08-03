@@ -1,0 +1,55 @@
+body {
+  background-color:darkgrey;
+}
+.body {
+  max-width:960px;
+  text-align: center;
+}
+
+.head {
+  background-color:white;
+  text-align:center;
+  padding:30px;
+  margin:10px;
+}
+
+nav {
+  background-color:darkblue;
+  color:white;
+  text-align:center;
+  padding:30px;
+  margin:10px;
+}
+
+section {
+  background-color:darkblue;
+  color:white;
+  text-align:center;
+  padding:20px;
+  margin:10px;
+  width:495px;
+}
+
+article {
+  background-color: aqua;
+  color:black;
+  padding:10px;
+}
+
+aside {
+  float:right;
+  background-color: aqua;
+  padding:70px;
+  margin:0px 10px 5px 10px;
+  width:700px;
+  text-align: center;
+}
+
+footer {
+  
+  padding:20px;
+  background-color:purple;
+  color:white;
+  text-align:center;
+  margin:10px;
+}
