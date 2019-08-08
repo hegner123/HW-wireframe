@@ -1,61 +1,75 @@
-.clearfix::after {
-    content: "";
-    clear: both;
-  }
 
-body {
-  background-color:darkgrey;
-}
-.body {
-  max-width:960px;
+* {
+  box-sizing: border-box;
   text-align: center;
 }
 
-.head {
+body {
   background-color:white;
+  
+}
+
+.body {
   text-align:center;
+ 
+}
+
+
+.head {
+  background-color:grey;
   padding:30px;
-  margin:10px;
+  margin-bottom:10px;
 }
 
 nav {
-  background-color:darkblue;
-  color:white;
-  text-align:center;
-  padding:30px;
-  margin:10px;
-}
-
-section {
-  background-color:darkblue;
-  float:left;
-  color:white;
-  text-align:center;
-  padding:20px;
-  margin:10px;
-  width:495px;
-}
-
-article {
-  background-color: aqua;
+  background-color:grey;
   color:black;
-  padding:10px;
+  padding:30px;
+  margin-top:10px;
 }
 
-aside {
+#content {
+  overflow: auto;
+  clear: both;
+  margin-top:10px;
+}
+
+#section {
   float:left;
-  background-color: aqua;
-  padding:70px;
-  width:425px;
-  margin:10px;
-  text-align: center;
+  padding:20px;
+  background-color:grey;
+  color:black;
+  height:250px;
+  width:59%;
+}
+
+#article {
+  background-color: darkgrey;
+  color:black;
+  padding:20px;
+}
+
+#aside {
+  float:left;
+  background-color: grey;
+  padding:20px;
+  height:250px;
+  width:40%;
+  margin-left:1%;
 }
 
 footer {
-  
   padding:20px;
-  background-color:purple;
-  color:white;
-  text-align:center;
-  margin:10px;
+  background-color:grey;
+  color:black;
+  clear: both;
+  margin-top:10px;
+}
+
+#articleHeader {
+  background:darkgrey;
+}
+
+#articleText {
+  background:darkgrey;
 }
