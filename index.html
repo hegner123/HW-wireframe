@@ -5,45 +5,56 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>HW-wireframe</title>
+  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
   <div class=body>
   
   
-  <div class="head">
+    <div class="jumbotron" id="header">
     <h1>Header</h1>
+    </div>
     
-  </div>
+
 
   <nav>
-      <h1>Navigation Bar</h1>
+      <button type="button" class="btn btn-primary">Primary</button>
+<button type="button" class="btn btn-secondary">Secondary</button>
+<button type="button" class="btn btn-success">Success</button>
+<button type="button" class="btn btn-danger">Danger</button>
+<button type="button" class="btn btn-warning">Warning</button>
+<button type="button" class="btn btn-info">Info</button>
+<button type="button" class="btn btn-light">Light</button>
+<button type="button" class="btn btn-dark">Dark</button>
+
+<button type="button" class="btn btn-link">Link</button>
   </nav>
 
-  <div id="content">
+  <div class="container"  id="content">
+    <div class="row">
   
-  <section id="section">
+  <section class="col-sm-6" id="section">
       <h1>Stuff</h1>
-    <article id="article">
+    <div class="well" id="article">
       Article
        <h2 id="aticleHeader">Article Header</h2>
        <p id="articleText">Article Paragraph</p>
-    </article>
+    </div>
   </section>
 
-  <aside id="aside">
+  <aside class="col-sm-6" id="aside">
     <h1>Aside</h1>
     text
    </aside>
  
 
   </div>
-  
+</div>
 
 
-  <footer>
-      <h1>footer</h1>
-  </footer>
+
 
   </div>
 </body>
